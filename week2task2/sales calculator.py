@@ -1,0 +1,5 @@
+productname=str(input("productname:"))
+quantitysold=int(input("quantitysold:"))
+priceperunit=float(input("priceperunit:"))
+totalrevenue=(quantitysold*priceperunit)
+print("totalrevenue is :",totalrevenue)
